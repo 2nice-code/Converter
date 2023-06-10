@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Area</title>
+	<link rel="stylesheet" href="style.css">
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ba2614be55.js" crossorigin="anonymous"></script>
+</head>
+<body class="wrapper">
+  <section>
+               <div id="mysidenav" class="sidenav">
+                <img class="pic" src="math1.PNG">
+                 <a href="#" class="closebtn btn"> &times;</a>
+                <div class="content">
+                <p class="met"> METRICS COVERTER</p>
+                 <a href="/calculator/Index.html"> Length </a>
+                 <a href="/calculator/Area.html">Area </a>
+                 <a href="/calculator/Temperature.html">Temperature</a>
+                 <a href="/calculator/Weight.html">Weight</a>
+                 <a href="/calculator/Speed.html">Speed</a>
+                 <a href="/calculator/Pressure.html">Pressure</a>
+                 <a href="#">Energy and Power</a>
+                 </div>
+                 <footer class="mark">By Afolabi Boluwatife </footer>
+               </div>
+               
+               <p class="con animate__animated animate__fadeIn animate__slower">metrics converter</p>   
+                <div class="card">
+                  <div class="openbtn">&#9776;</div>
+                  
+                           <p class="con2">AREA</p>
+                           <p class="invalid" id="intro"> Select Area measurement and Enter value </p>
+                           
+                          <select id="measurement" class="elect" onChange="for_SquareFeet()" onchange="for_acres()"
+                          onchange="for_squareMeter()"  onchange="for_hectares()" onchange="for_squareKilometer()" 
+                          onchange="for_squareMiles()" onchange="square_milimeter()" onchange="square_centimeter()">
+                            <option  value="sele2">Select Measurement</option>
+                            <option   value="square_feet">Square Feet (ft&sup2)</option>
+                            <option   value="acres">Acres </option>
+                            <option   value="square_meter">Square Meters (m&sup2)</option>
+                            <option   value="hactares">Hectares </option>
+                            <option   value="square_kilometer">Square Kilometers (k&sup2)</option>
+                            <option   value="square_miles">Square Miles (mi&sup2)</option>
+                            <option   value="square_milimeter">Square millimeter (mm&sup2)</option>
+                            <option   value="square_centimeter">Square centimeter (cm&sup2)</option>
+                          </select>
+
+                          <input type="number" name="enterNo" id="inside" placeholder="Enter No" class="enter">
+                            <input class="clear" for="enter" type="reset" value="Clear">
+                          <br>
+
+                          <br>  <p class="ans">RESULT:</p>
+                         <p class="result" id="word"> 0</p>
+
+                        
+                          <div class="container">
+                            <div class="opt opt1" style="background: #6F0505;"> Square Feet (ft&sup2)</div>
+                            <div class="opt opt2" style="background: #158FAA;"> Acres </div>
+                            <div class="opt opt3" style="background: #0B8D3F;"> Square Meters (m&sup2)</div>
+                            <div class="opt opt4" style="background: #BC600C;"> Hectares </div>
+                            <div class="opt opt5" style="background: #233F08;"> Square Kilometers (k&sup2)</div>
+                            <div class="opt opt6" style="background: #960E88;"> Square Miles (mi&sup2)</div>
+                            <div class="opt opt7" style="background: #440B8D;"> Square millimeter (mm&sup2)</div>
+                            <div class="opt opt8" style="background: #7EA904;"> Square centimeter (cm&sup2)</div>
+                          </div>
+                 
+
+                </div>
+  </section>
+
+<script type="text/javascript" src="area.js"></script>
+</body>
+</html>
+<body>

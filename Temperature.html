@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Temperature</title>
+	<link rel="stylesheet" href="style.css">
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ba2614be55.js" crossorigin="anonymous"></script>
+</head>
+<body class="wrapper">
+  <section>
+               <div id="mysidenav" class="sidenav">
+                <img class="pic" src="math1.PNG">
+                 <a href="#" class="closebtn btn"> &times;</a>
+                <div class="content">
+                <p class="met"> METRICS COVERTER</p>
+                 <a href="/calculator/index.html"> Length </a>
+                 <a href="/calculator/Area.html">Area </a>
+                 <a href="/calculator/Temperature.html">Temperature</a>
+                 <a href="/calculator/Weight.html">Weight</a>
+                 <a href="/calculator/Speed.html">Speed</a>
+                 <a href="/calculator/Pressure.html">Pressure</a>
+                 <a href="#">Energy and Power</a>
+                 </div>
+                 <footer class="mark">By Afolabi Boluwatife </footer>
+               </div>
+               
+               <p class="con animate__animated animate__fadeIn animate__slower">metrics converter</p>   
+                <div class="card">
+                  <div class="openbtn">&#9776;</div>
+                  
+                           <p class="con2">TEMPERATURE</p>
+                           <p class="invalid" id="intro"> Select temperature measurement and Enter value </p>
+                           
+                          <select id="measurement" class="elect" onChange="for_Celsius()" onchange="for_Fahrenheit()"
+                          onchange="for_Kelvin()" onchange="for_rankine()">
+                            <option  value="sele3">Select Measurement</option>
+                            <option  value="celsius">Celsius (°C)</option>
+                            <option  value="fahrenheit">Fahrenheit (°F)</option>
+                            <option  value="kelvin">Kelvin (°K)</option>
+                            <option  value="rankine">Rankine (°R)</option>
+                          </select>
+
+                          <input type="number" name="enterNo" id="inside" placeholder="Enter No" class="enter">
+                            <input class="clear" for="enter" type="reset" value="Clear">
+                          <br>
+
+                          <br>  <p class="ans">RESULT:</p>
+                         <p class="result" id="word"> 0</p>
+
+                        
+                          <div class="container">
+                            <div class="opt opt1" style="background: #6F0505;"> Celsius (°C)</div>
+                            <div class="opt opt2" style="background: #158FAA;"> Fahrenheit (°F)</div>
+                            <div class="opt opt3" style="background: #0B8D3F;"> Kelvin (°K)</div>
+                            <div class="opt opt4" style="background: #BC600C;"> Rankine (°K)</div>
+                          </div>
+                 
+
+                </div>
+  </section>
+
+<script type="text/javascript" src="Temperature.js"></script>
+</body>
+</html>
+<body>

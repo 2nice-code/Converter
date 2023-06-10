@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Converter</title>
+	<link rel="stylesheet" href="style.css">
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ba2614be55.js" crossorigin="anonymous"></script>
+</head>
+<body class="wrapper">
+  <section>
+               <div id="mysidenav" class="sidenav">
+                <img class="pic" src="math1.PNG">
+                 <a href="#" class="closebtn btn"> &times;</a>
+                <div class="content">
+                <p class="met"> METRICS COVERTER</p>
+                 <a href="/calculator/Lenght.html"> Length </a>
+                 <a href="/calculator/Area.html">Area </a>
+                 <a href="/calculator/Temperature.html">Temperature</a>
+                 <a href="/calculator/Weight.html">Weight</a>
+                 <a href="/calculator/Speed.html">Speed</a>
+                 <a href="/calculator/Pressure.html">Pressure</a>
+                 <a href="#">Energy and Power</a>
+                 </div>
+                 <footer class="mark">By Afolabi Boluwatife </footer>
+               </div>
+               
+               <p class="con animate__animated animate__fadeIn animate__slower">metrics converter</p>   
+                <div class="card">
+                  <div class="openbtn">&#9776;</div>
+                  
+                           <p class="con2">LENGTH</p>
+                           <p class="invalid" id="intro"> Select lenght measurement and Enter value </p>
+                           
+                          <select id="measurement" class="elect" onChange="for_Millimeter()" onchange="for_Centimeter()"
+                          onchange="for_Meter()"  onchange="for_Kilometer()" onchange="for_Inches()" onchange="for_Feet()"
+                           onchange="for_Miles()" onchange="for_Yard()">
+                            <option  value="sele">Select Measurement</option>
+                            <option  value="millimeter">Millimeter (mm)</option>
+                            <option  value="centimeter">Centimeter (cm)</option>
+                            <option  value="meter">Meter (m)</option>
+                            <option  value="kilometer">Kilometer (km)</option>
+                            <option  value="inches">Inches (in)</option>
+                            <option  value="feet">Feet (ft)</option>
+                            <option  value="mile">Miles (mi)</option>
+                            <option  value="yard">Yard (yd)</option>
+                          </select>
+
+                          <input type="number" name="enterNo" id="inside" placeholder="Enter No" class="enter">
+                            <input class="clear" for="enter" type="reset" value="Clear">
+                          <br>
+
+                          <br>  <p class="ans">RESULT:</p>
+                         <p class="result" id="word"> 0</p>
+
+                        
+                          <div class="container">
+                            <div class="opt opt1" style="background: #6F0505;"> Millimeter (mm)</div>
+                            <div class="opt opt2" style="background: #158FAA;"> Centimeter (cm)</div>
+                            <div class="opt opt3" style="background: #0B8D3F;"> Meter (m)</div>
+                            <div class="opt opt4" style="background: #BC600C;"> Kilometer (km)</div>
+                            <div class="opt opt5" style="background: #233F08;"> Inches (in)</div>
+                            <div class="opt opt6" style="background: #960E88;"> Feet (ft)</div>
+                            <div class="opt opt7" style="background: #440B8D;"> Miles (Mi)</div>
+                            <div class="opt opt8" style="background: #7EA904;"> Yard (yd)</div>
+                          </div>
+                 
+
+                </div>
+  </section>
+
+<script type="text/javascript" src="calc.js"></script>
+</body>
+</html>
+<body>
+
+
+
+
+   

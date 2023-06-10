@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Speed</title>
+	<link rel="stylesheet" href="style.css">
+   <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ba2614be55.js" crossorigin="anonymous"></script>
+</head>
+<body class="wrapper">
+  <section>
+               <div id="mysidenav" class="sidenav">
+                <img class="pic" src="math1.PNG">
+                 <a href="#" class="closebtn btn"> &times;</a>
+                <div class="content">
+                <p class="met"> METRICS COVERTER</p>
+                 <a href="/calculator/index.html"> Length </a>
+                 <a href="/calculator/Area.html">Area </a>
+                 <a href="/calculator/Temperature.html">Temperature</a>
+                 <a href="/calculator/Weight.html">Weight</a>
+                 <a href="/calculator/Speed.html">Speed</a>
+                 <a href="/calculator/Pressure.html">Pressure</a>
+                 <a href="#">Energy and Power</a>
+                 </div>
+                 <footer class="mark">By Afolabi Boluwatife </footer>
+               </div>
+               
+               <p class="con animate__animated animate__fadeIn animate__slower">metrics converter</p>   
+                <div class="card">
+                  <div class="openbtn">&#9776;</div>
+                  
+                           <p class="con2">SPEED</p>
+                           <p class="invalid" id="intro"> Select speed measurement and Enter value </p>
+                           
+                          <select id="measurement" class="elect" onChange="for_kiloPerHour()" onchange="for_milesPerHour()"
+                          onchange="for_meterPerSec()"  onchange="for_feetPerSec()" onchange="for_millimeterPerseconds()"
+                          onchange="for_centimeterPerseconds()" onchange="for_kilometerPerseconds()">
+                            <option  value="sele4">Select Measurement</option>
+                            <option  value="kilometers/hour">Kilometers/hour (Km/h)</option>
+                            <option  value="miles/hour">Miles/hour (mph)</option>
+                            <option  value="meter/seconds">Meter/sec (m/s)</option>
+                            <option  value="feet/seconds">feet/sec (ft/s)</option>
+                            <option  value="millimeter/seconds">millimeter/sec (mm/s)</option>
+                            <option  value="centimeter/seconds">centimeter/sec (cm/s)</option>
+                            <option  value="kilometer/seconds">kilometer/sec (km/s)</option>
+
+                          </select>
+
+                          <input type="number" name="enterNo" id="inside" placeholder="Enter No" class="enter">
+                            <input class="clear" for="enter" type="reset" value="Clear">
+                          <br>
+
+                          <br>  <p class="ans">RESULT:</p>
+                         <p class="result" id="word"> 0</p>
+
+                        
+                          <div class="container">
+                            <div class="opt opt1" style="background: #6F0505;">Kilometers /hour</div>
+                            <div class="opt opt2" style="background: #158FAA;"> Miles /hour</div>
+                            <div class="opt opt3" style="background: #0B8D3F;"> Meter /sec</div>
+                            <div class="opt opt4" style="background: #BC600C;"> feet /sec</div>
+                            <div class="opt opt5" style="background: #233F08;"> millimeter /sec</div>
+                            <div class="opt opt6" style="background: #960E88;"> centimeter /sec</div>
+                            <div class="opt opt7" style="background: #440B8D;"> kilometer /sec</div>
+                          </div>
+                 
+
+                </div>
+  </section>
+
+<script type="text/javascript" src="speed.js"></script>
+</body>
+</html>
+<body>
