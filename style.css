@@ -149,7 +149,8 @@
 }
 
 .enter{
-	border-radius: 10px;
+	border-radius: 10px ;
+	border-color: #ffffff;
 	height: 1.8em;
 	width: 15em;
 	background: transparent;
@@ -493,6 +494,7 @@
 	height: 90vh;
 	padding: 2em;
 	border-radius: 10px;
+	padding-bottom: px;
 }
 .pic{
 	width: 200%;
@@ -510,9 +512,10 @@
 
 .opt{
 	padding: 10px;
-	margin: 10px;
+	margin: 8px;
+	border: 8px ;
 	margin-top: 0;
-	font-size: 0.8em;
+	font-size: 0.7em;
 }
 .opt:hover{
 	font-size: 0.75em;
@@ -556,4 +559,6 @@
 .invalid{
 	font-size: 10px;
 }
+
+
 }
