@@ -6,7 +6,7 @@
 .wrapper{
 	font-family: montserrat;
 	text-align: center;
-	background: #2C423F
+	background: #4C5B61
 	color: #fff;
 	height: 100vh;
 	padding-left: 100px;
@@ -140,7 +140,7 @@
 }
 
 .card{
-	background: #4C5B61;
+	background: #2C423F;
 	height: 85vh;
 	opacity: .9;
 	padding: 3em;
