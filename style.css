@@ -165,10 +165,11 @@
 
 .clear{
 	margin: 1.5em;
+	border-radius: 5px;
 	padding: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
-	color: #FFF;
+	color: #F0F0F0;
 	background-color: #0C1B33;
 }
 
@@ -192,9 +193,9 @@
 	margin: 1em;
 	margin-top: 2em;
 	padding: .8em;
-	border-radius: 10px;
+	border-radius: 5px;
 	font-size: 14px;
-	color: #FFF;
+	color: #F0f0f0;
 	background-color: #0C1B33;
 }
 
@@ -544,11 +545,11 @@
 }
 
 .sidenav a{
-	font-size: 15px;
+	font-size: 18px;
 }
 
 .met{
-	font-size: 18px;
+	font-size: 20px;
 }
 
 }
