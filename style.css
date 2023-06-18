@@ -6,7 +6,7 @@
 .wrapper{
 	font-family: montserrat;
 	text-align: center;
-	background: #4C5B61;
+	background: #0C1B33;
 	color: #fff;
 	height: 100vh;
 	padding-left: 100px;
@@ -35,7 +35,7 @@
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: #060714;
+	background-color: #0C1B33;
 	background: ;
 	overflow-x: hidden;
 	overflow-y: hidden;
@@ -140,7 +140,7 @@
 }
 
 .card{
-	background: #2C423F;
+	background: #003459;
 	height: 85vh;
 	opacity: .9;
 	padding: 3em;
@@ -168,6 +168,8 @@
 	padding: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
+	color: #FFF;
+	background-color: #0C1B33;
 }
 
 .invalid{
@@ -192,6 +194,8 @@
 	padding: .8em;
 	border-radius: 10px;
 	font-size: 14px;
+	color: #FFF;
+	background-color: #0C1B33;
 }
 
 .container{
@@ -539,8 +543,13 @@
 
 }
 
+.sidenav a{
+	padding: 30px 0px 30px 0px;
+	font-size: 25px;
+}
+
 .met{
-	font-size: 13px;
+	font-size: 30px;
 }
 
 }
