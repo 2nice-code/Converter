@@ -6,7 +6,7 @@
 .wrapper{
 	font-family: montserrat;
 	text-align: center;
-	background: linear-gradient(to right, rgb(5, 8, 41), rgb(4, 22, 4));
+	background: #C5C5C5
 	color: #fff;
 	height: 100vh;
 	padding-left: 100px;
@@ -140,7 +140,7 @@
 }
 
 .card{
-	background: #0F4455;
+	background: #4C5B61;
 	height: 85vh;
 	opacity: .9;
 	padding: 3em;
